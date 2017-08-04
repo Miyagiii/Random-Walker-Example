@@ -23,7 +23,7 @@ class Walker
   }
   void display()
   {
-    float distance = dist(x, y, 0, y);//Stores the distance from the left edge of the screen
+    float distance = dist(x, y, 0, y);//Stores the distance from the edge of the screen
     
     if ( x > width/2)
     {
